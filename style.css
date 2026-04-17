@@ -146,3 +146,66 @@ main button:hover {
     color: #0d47a1;
     margin-bottom: 10px;
 }
+footer {
+    background: #0d47a1;
+    color: white;
+    padding: 20px 10px;
+    margin-top: 30px;
+}
+
+.footer-content {
+    text-align: center;
+}
+
+.footer-content h3 {
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+
+.footer-nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 8px;
+    font-size: 14px;
+}
+
+.footer-nav a:hover {
+    color: #ffca28;
+}
+
+.copy {
+    font-size: 12px;
+    opacity: 0.8;
+    margin-top: 10px;
+}
+
+@media (max-width: 768px) {
+
+    .hero h1 {
+        font-size: 24px;
+    }
+
+    .hero p {
+        font-size: 16px;
+    }
+
+    nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .about-page h1 {
+        font-size: 22px;
+    }
+}
+
+@media (max-width: 480px) {
+
+    .hero {
+        padding: 30px 10px;
+    }
+
+    input {
+        width: 90%;
+    }
+}
